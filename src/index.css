@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bms {
+ width: 3%;
+}
+.hpo:hover{
+ transform: scale(1.1);
+}
+.shol{
+  width:  500px;
+}
+.dot {
+  text-align: left;
+}
+.tat {
+  text-align: left;
+}
+.tata {
+  text-align: left;
+}
+@media (min-width: 320px) and (max-width: 468px){
+  .shol{
+   width: 260px;
+   height: 150px;
+  } 
+  .fab{
+   width: 400px;
+  }
+  .bms{
+    height: 28px;
+    width: 47px;
+  }
+ 
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .shol{
+    width: 280px;
+    height: 150px;
+   } 
+   .fab{
+    width: 400px;
+   }
+   .bms{
+     height: 28px;
+     width: 50px;
+   }
+}
+@media (min-width: 540px) and (max-width: 720px){
+  .shol{
+    width: 280px;
+    height: 150px;
+   } 
+   .fab{
+    width: 400px;
+   }
+   .bms{
+     height: 28px;
+     width: 50px;
+   }
+}
+@media (min-width: 370px) and (max-width: 539px){
+  .shol{
+    width: 280px;
+    height: 150px;
+   } 
+   .fab{
+    width: 400px;
+   }
+   .bms{
+     height: 28px;
+     width: 50px;
+   }
+
+}
